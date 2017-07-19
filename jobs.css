@@ -22,7 +22,11 @@
   position:relative;
   -webkit-border-radius: 1.5625em;
   padding: 1em 1em 1em 1em;
-  margin: 20px;
+  margin: 3% auto;
+  font-size: 1.5em;
+  position:relative;
+  
+
 
 
 }
