@@ -15,7 +15,7 @@ $(document).ready(function(){
        });
     }
       //4b.function firing
-      compilation('../newjobs.json', '#listing-template', '#newlisting-container'); // since url = 'data.json' , we can use both notations.
+      compilation('https://jsninja1994.github.io/mobile-web-project/newjobs.json', '#listing-template', '#newlisting-container'); // since url = 'data.json' , we can use both notations.
 
 
 
