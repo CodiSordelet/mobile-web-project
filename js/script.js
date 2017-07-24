@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$('.about').hide();
+
 
   var compilation = function (url, tplId, anchor) {
 
@@ -20,6 +20,12 @@ $('.about').hide();
 
     $('div[data-tog='+ index +']').toggle();
  });
+
+
+
+
+
+
 
 
 });

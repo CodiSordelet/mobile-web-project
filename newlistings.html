@@ -30,7 +30,7 @@
              </nav>
 
 
-        <div id="listing-container" class="container"></div>
+        <div id="newlisting-container" class="container"></div>
 
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -40,7 +40,7 @@
 
           {{#jobs}}
           <div class="job-listing">
-            <h2 class="Job-title">{{jobTitle}}  <i class="fa fa-free-code-camp fire"></i></h2>
+            <h2 class="Job-title">{{jobTitle}}  <i class="fa fa-free-code-camp fire fire"></i></h2>
             <span class="Job-Location">{{jobLocation}} </span>  <span class="Job-Type">{{jobType}}</span>
             <div data-tog="{{@index}}" class="about">
             <h4>Job Duties</h4>
@@ -50,68 +50,23 @@
               <li>{{this}}</li>
             {{/each}}
             </ul>
-
-
           </div>
 
           <div class="buttoncontainer">
             <button type="button" class="btn btn-primary"  data-trigger="view-more" data-index="{{@index}}"  >View More</button>
             <button type="button" class="btn btn-success">Save This Job</button>
-
           </div>
           </div>
-
-
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">{{jobTitle}}</h5>
-                        <span class="Job-Location">{{jobLocation}} </span>  <span class="Job-Type">{{jobType}}</span>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                    </div>
-                    <div class="modal-body">
-                      <ul>
-                      {{#each jobDuties}}
-                        <li>{{this}}</li>
-                      {{/each}}
-                      </ul>
-
-                      <hr>
-                      <ul>
-                      {{#each jobRequirements}}
-                        <li>{{this}}</li>
-                      {{/each}}
-                      </ul>
-
-
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send message</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
 
           {{/jobs}}
 
 
 
-
-
-
-
         </script>
+
+
+
+        </div>
 
 
 
