@@ -6,6 +6,7 @@
     <title>JOBS</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="jobs.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -30,7 +31,6 @@
                 </div>
             </div>
         </nav>
-
         <div id="listing-container" class="container"></div>
 
 
@@ -41,7 +41,7 @@
 
           {{#jobs}}
           <div class="job-listing">
-            <h2 class="Job-title">{{jobTitle}} </h2>
+            <h2 class="Job-title">{{jobTitle}}  <i class="fa fa-free-code-camp"></i></h2>
             <span class="Job-Location">{{jobLocation}} </span>  <span class="Job-Type">{{jobType}}</span>
             <h4>Job Duties</h4>
 
