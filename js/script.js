@@ -13,7 +13,7 @@ $(document).ready(function(){
        });
     }
 
-      compilation('../jobs.json', '#listing-template', '#listing-container');
+      compilation('https://jsninja1994.github.io/mobile-web-project/jobs.json', '#listing-template', '#listing-container');
 
  $(document).on('click','[data-trigger="view-more"]', function(evt){
    var index =$(this).data("index");
