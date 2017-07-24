@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+@media only screen and (min-width : 480px) {
+ #maincontent {
+  padding-bottom: 30em;
+ }
+
+  #topnav{
+  text-align:center;
+  }
+
+  .nav-item {
+
+  border-bottom: 1px solid white;
+  }
+
+  nav img {
+  padding-left:10px;
+  }
+
+  body {
+    background-color: #ffffff;
+  }
+
+
+
+  #topnav {
+    background-color: #707070;
+    padding: 3em 3em 3em 3em;
+
+  }
+
+
+  .nav-link {
+    color: #FFFFFF !important;
+    font-family:'Roboto', sans-serif !important;
+    font-size: 2.5em;
+    margin: 0 auto;
+  }
+
+  .fire {
+    color: #ff6600;
+  }
+
+
+  .job-listing {
+
+    background-color: #dce1e8;
+    color: black;
+    position:relative;
+    -webkit-border-radius: .2em;
+    padding: 1em 1em 1em 1em;
+    margin: 5% auto;
+    font-size: 2.5em;
+    position:relative;
+    width: 95%;
+
+
+  }
+
+  button {
+    font-size: em !important;
+  }
+
+  /*.view-change-480px {
+    display: none !important;
+  }*/
+
+  .about {
+    display:none;
+  }
+
+  article {
+    font-size: 2em;
+  }
+
+
+  .footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #707070;
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+
+  }
+
+  #newlisting-container {
+    padding-bottom: 37em;
+  }
+
+  #listing-container {
+    padding-bottom:  37em;
+  }
+
+}
+
+
+/* Small */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large */
+@media only screen and (min-width : 1200px) {
+
+
+
+  #topnav{
+  text-align:center;
+  font-size: 1.5625em;
+  }
+
+  .nav-item {
+  border-bottom: none;
+  }
+
+  .logo {
+  width: 50%;
+  padding-left:10px;
+  }
+
+  body {
+    background-color: #ffffff;
+  }
+
+
+  #topnav {
+    background-color: #707070;
+    padding: 1em 1em 1em 1em;
+  }
+
+
+  .nav-link {
+    color: #FFFFFF !important;
+    font-family:'Roboto', sans-serif !important;
+    font-size: 1em;
+  }
+
+
+  .job-listing {
+
+    background-color: #bababa;
+    color: black;
+    position:relative;
+    -webkit-border-radius: .2em;
+    padding: 1em 1em 1em 1em;
+    margin: 3% auto;
+    font-size: 1.5em;
+    position:relative;
+
+
+  }
+
+  .fire {
+    color: #ff6600;
+  }
+
+  .about {
+    display:none;
+  }
+
+  article {
+    font-size: 2em;
+  }
+
+  .footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #707070;
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+#newlisting-container {
+  padding-bottom: 37em;
+}
+
+
+
+
+}
