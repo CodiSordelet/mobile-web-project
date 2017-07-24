@@ -44,18 +44,20 @@
 
           {{#jobs}}
           <div class="job-listing">
-            <h2 class="Job-title">{{jobTitle}}</h2>
+            <h1 class="Job-title">{{jobTitle}}</h1>
             <span class="Job-Location">{{jobLocation}} </span>  <span class="Job-Type">{{jobType}}</span>
             <div data-tog="{{@index}}" class="about">
-            <h4 class="view-change-480px">Job Duties</h4>
+            <h2 class="" style="font-decoration: underline">Job Duties</h2>
 
-            <ul class="view-change-480px">
+            <ul class="">
             {{#each jobDuties}}
               <li>{{this}}</li>
             {{/each}}
             </ul>
 
             <hr>
+
+            <h2 class="" style="font-decoration: underline">Job Requirements</h2>
             <ul>
             {{#each jobRequirements}}
               <li>{{this}}</li>

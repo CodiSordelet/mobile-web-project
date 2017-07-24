@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @media only screen and (max-width: 991px) {
+
+  html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin: 0 0 9.375em;
+}
+
+
+
     #maincontent {
         padding-bottom: 20em;
     }
@@ -40,7 +52,7 @@
         width: 95%;
     }
     button {
-        font-size: em !important;
+        font-size: 1em !important;
     }
     /*.view-change-480px {
     display: none !important;
@@ -54,7 +66,7 @@
     .footer {
         text-align: center;
         font-family: 'Roboto', sans-serif !important;
-        position: relative;
+        position: absolute;
         right: 0;
         bottom: 0;
         left: 0;
@@ -91,6 +103,14 @@
 /* Large */
 
 @media only screen and (min-width: 1200px) {
+  html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin: 0 0 9.375em;
+}
      #maincontent {
       padding-bottom: 0em;
     }

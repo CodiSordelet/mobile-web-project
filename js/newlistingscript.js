@@ -22,7 +22,23 @@ $(document).ready(function(){
       $(document).on('click','[data-trigger="view-more"]', function(evt){
         var index =$(this).data("index");
 
-         $('div[data-tog='+ index +']').toggle();
+        $('div[data-tog='+ index +']').toggle();
+        // if()
+        var dataIndex = $('[data-index='+ index +']');
+        var temp = $('div').find(dataIndex);
+        if(temp[0].innerHTML === 'View More') {
+
+          temp[0].innerHTML = 'Close';
+
+        } else if(temp[0].innerHTML === 'Close'){
+
+          temp[0].innerHTML ='View More';
+
+        }
+
+
+
+
       });
 
 
