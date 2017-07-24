@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @media only screen and (max-width: 991px) {
     #maincontent {
-        padding-bottom: 20em;
+        padding-bottom: 50em;
     }
     #topnav {
         text-align: center;
@@ -51,6 +51,15 @@
     article {
         font-size: 2em;
     }
+
+    .aboutContent p {
+      font-size: 0.75em;
+    }
+
+    .aboutContent {
+      text-align: center;
+    }
+    
     .footer {
         text-align: center;
         font-family: 'Roboto', sans-serif !important;
@@ -137,6 +146,12 @@
     article {
         font-size: 2em;
     }
+
+    .aboutContent p {
+      font-size: 0.75em;
+    }
+
+
     .footer {
         text-align: center;
         font-family: 'Roboto', sans-serif !important;
