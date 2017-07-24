@@ -31,6 +31,8 @@
                 </div>
             </div>
         </nav>
+
+
         <div id="listing-container" class="container"></div>
 
 
@@ -41,8 +43,9 @@
 
           {{#jobs}}
           <div class="job-listing">
-            <h2 class="Job-title">{{jobTitle}}  <i class="fa fa-free-code-camp"></i></h2>
+            <h2 class="Job-title">{{jobTitle}}  <i class="fa fa-free-code-camp fire"></i></h2>
             <span class="Job-Location">{{jobLocation}} </span>  <span class="Job-Type">{{jobType}}</span>
+            <div data-tog="{{@index}}" class="about">
             <h4>Job Duties</h4>
 
             <ul>
@@ -51,8 +54,14 @@
             {{/each}}
             </ul>
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View More</button>
+
+          </div>
+
+          <div class="buttoncontainer">
+            <button type="button" class="btn btn-primary"  data-trigger="view-more" data-index="{{@index}}"  >View More</button>
             <button type="button" class="btn btn-success">Save This Job</button>
+
+          </div>
           </div>
 
 

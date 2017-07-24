@@ -19,15 +19,11 @@ $(document).ready(function(){
 
 
 
-    var  modalFunction  = function (index) {
-      $.getJSON('../jobs.json', function(data) {
-        var jsonIndexData = data[index];
-        var template = $('#Job-Modal').html();
-        var modalData = Handlebars.compile(template)(jsonIndexData);
-        $(anchor).append(modalData);
-        alert("I work");
+      $(document).on('click','[data-trigger="view-more"]', function(evt){
+        var index =$(this).data("index");
+
+         $('div[data-tog='+ index +']').toggle();
       });
-    }
 
 
 

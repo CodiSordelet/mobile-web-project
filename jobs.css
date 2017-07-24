@@ -1,31 +1,113 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-#topnav {
-  background-color: #707070;
+
+
+@media only screen and (min-width : 480px) {
+
+  body {
+    background-color: #2889ff;
+  }
+
+
+
+  #topnav {
+    background-color: #707070;
+    padding: 3em 3em 3em 3em;
+
+  }
+
+
+  .nav-link {
+    color: #FFFFFF !important;
+    font-family:'Roboto', sans-serif !important;
+    font-size: 2.5em;
+    margin: 0 auto;
+  }
+
+
+  .job-listing {
+
+    background-color: #dce1e8;
+    color: black;
+    position:relative;
+    -webkit-border-radius: .2em;
+    padding: 1em 1em 1em 1em;
+    margin: 5% auto;
+    font-size: 2.5em;
+    position:relative;
+    width: 95%;
+
+
+  }
+
+  button {
+    font-size: em !important;
+  }
+
+  /*.view-change-480px {
+    display: none !important;
+  }*/
+
+  .about {
+    display:none;
+  }
 
 }
 
-.logo {
-  background-color:
+/* Small */
+@media only screen and (min-width : 768px) {
+
 }
 
-.nav-link {
-  color: #FFFFFF !important;
-  font-family:'Roboto', sans-serif !important;
+/* Medium */
+@media only screen and (min-width : 992px) {
+
 }
 
+/* Large */
+@media only screen and (min-width : 1200px) {
 
-.job-listing {
+  body {
+    background-color: #2889ff;
+  }
+  #topnav {
+    background-color: #707070;
+    padding: 1em 1em 1em 1em;
 
-  background-color: #dce1e8;
-  color: black;
-  position:relative;
-  -webkit-border-radius: 1.5625em;
-  padding: 1em 1em 1em 1em;
-  margin: 3% auto;
-  font-size: 1.5em;
-  position:relative;
-  
+
+  }
+
+
+
+
+  .nav-link {
+    color: #FFFFFF !important;
+    font-family:'Roboto', sans-serif !important;
+    font-size: 1.5em;
+  }
+
+
+  .job-listing {
+
+    background-color: #bababa;
+    color: black;
+    position:relative;
+    -webkit-border-radius: .2em;
+    padding: 1em 1em 1em 1em;
+    margin: 3% auto;
+    font-size: 1.5em;
+    position:relative;
+
+
+  }
+
+  .fire {
+    color: #ff6600;
+  }
+
+  .about {
+    display:none;
+  }
 
 
 
