@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 991px) {
     #maincontent {
-        padding-bottom: 57.8em;
+        padding-bottom: 20em;
     }
     #topnav {
         text-align: center;
@@ -16,7 +16,7 @@
         background-color: #ffffff;
     }
     #topnav {
-        background-color: #707070;
+        background-color: #404040;
         padding: 3em 3em 3em 3em;
     }
     .nav-link {
@@ -52,16 +52,23 @@
         font-size: 2em;
     }
     .footer {
+        text-align: center;
+        font-family: 'Roboto', sans-serif !important;
         position: relative;
         right: 0;
         bottom: 0;
         left: 0;
         padding: 1rem;
-        background-color: #707070;
+        background-color: #404040;
         text-align: center;
         font-size: 1.5em;
         color: #ffffff;
     }
+
+    #footerText {
+      font-size: 0.5 em;
+    }
+
     #newlisting-container {
         padding-bottom: 37em;
     }
@@ -103,7 +110,7 @@
         background-color: #ffffff;
     }
     #topnav {
-        background-color: #707070;
+        background-color: #404040;
         padding: 1em 1em 1em 1em;
     }
     .nav-link {
@@ -131,15 +138,21 @@
         font-size: 2em;
     }
     .footer {
+        text-align: center;
+        font-family: 'Roboto', sans-serif !important;
         position: relative;
         right: 0;
         bottom: 0;
         left: 0;
         padding: 1rem;
-        background-color: #707070;
+        background-color: #404040;
         text-align: center;
         font-size: 1.5em;
         color: #ffffff;
+    }
+
+    #footerText {
+      font-size: 0.5 em;
     }
     #newlisting-container {
         padding-bottom: 37em;
